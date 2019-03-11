@@ -1,4 +1,7 @@
-import './assets/css/bootstrap.min.css'
+import './assets/scss/app.scss'
+/*import './assets/js/jquery-3.3.1.slim.min.js'
+import './assets/js/popper.min.js'
+import './assets/js/bootstrap.min.js'*/
 import './firebase'
 import Vue from 'vue'
 import App from './App.vue'
