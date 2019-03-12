@@ -8,8 +8,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import VueFire from 'vuefire'
+import VueMoment from 'vue-moment'
 
 Vue.use(VueFire)
+Vue.use(VueMoment);
 
 Vue.config.productionTip = false
 

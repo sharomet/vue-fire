@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mt-5">
     <div class="row justify-content-center">
       <div class="col-md-8 col-lg-6">
         <div class="card">
@@ -34,7 +34,7 @@
       <div class="col-12">
         <ul>
           <li v-for="(user, index) in users" :key="index">
-            {{ user.firstName }} | {{ user.lastName }} | {{ user.email }}
+            {{ user.firstName }} | {{ user.lastName }} | {{ user.email }} | {{ user['.key'] }}
           </li>
         </ul>
       </div>

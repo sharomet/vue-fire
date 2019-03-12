@@ -1,3 +1,4 @@
+import firebase from 'firebase';
 import { initializeApp } from 'firebase'
 
 const app = initializeApp({
@@ -11,3 +12,4 @@ const app = initializeApp({
 
 export const db = app.database()
 export const usersRef = db.ref('users')
+export const getDate = firebase.database.ServerValue.TIMESTAMP
